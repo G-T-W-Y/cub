@@ -28,7 +28,7 @@ function init() {
 	// const material = new THREE.MeshBasicMaterial({ color: 0x0000ff });
 
 	// Add texture - 
-	 const texture = new THREE.TextureLoader().load('./img/elena.png');
+	 const texture = new THREE.TextureLoader().load('./img/jukrainian-logo.webp');
 
 	// Create material with texture
 	 const material = new THREE.MeshBasicMaterial({ map: texture });
